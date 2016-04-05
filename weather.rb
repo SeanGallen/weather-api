@@ -45,7 +45,3 @@ puts response.output_text
 # CommandLine
 #   ARGV.join("")
 # end
-#
-# def output_text
-# p response
-# end
