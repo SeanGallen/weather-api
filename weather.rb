@@ -14,7 +14,7 @@ class Weather
   end
 
   def httparty
-    HTTParty.get("http://api.openweathermap.org/data/2.5/forecast/city?id=#{city_id[city]}&APPID={APIKEY}).parsed_response
+    HTTParty.get("http://api.openweathermap.org/data/2.5/forecast/city?id=#{city_id[city]}&APPID={APIKEY}").parsed_response
   end
 
   def city_name
